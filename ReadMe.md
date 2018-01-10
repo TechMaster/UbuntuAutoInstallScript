@@ -7,6 +7,9 @@ cd UbuntuAutoInstallScript
 sudo ./TheScriptYouWantToInstall.sh
 ```
 
+```
+curl -s https://raw.githubusercontent.com/TechMaster/UbuntuAutoInstallScript/master/install.sh | sudo sh
+```
 **Danh sách các file shell tự động cài đặt**
 1. basic.sh : cài đặt git, vim, tree. Nên cài ngay từ đầu
 2. fish.sh: cài đặt Fish Shell, Oh My Fish và Roboto Mono for Powerline
