@@ -15,5 +15,6 @@ curl -L https://get.oh-my.fish > ~/omf.fish \
 && chown -R $SUDO_USER /home/$SUDO_USER/.config/fish \
 && chmod -R 755 /home/$SUDO_USER/.config/fish \
 && echo 'omf install budspencer;fish_update_completions;set -U budspencer_nogreeting;rm ~/omf.fish;rm ~/.config/fish/config.fish' > ~/.config/fish/config.fish \
-&& chsh -s `which fish` \
+&& chsh -s `which fish` $SUDO_USER \
+&& cp fishfunctions/*.fish /Users/$SUDO_USER/.config/fish/functions \
 && fish
