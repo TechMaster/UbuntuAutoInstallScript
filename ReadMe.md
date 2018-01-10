@@ -11,11 +11,12 @@ sudo ./TheScriptYouWantToInstall.sh
 1. basic.sh : cài đặt git, vim, tree. Nên cài ngay từ đầu
 2. fish.sh: cài đặt Fish Shell, Oh My Fish và Roboto Mono for Powerline
 3. docker.sh: cài đặt Docker CE
-4. rmlibre.sh: xoá Libre Office nếu thấy không cần thiết
-5. vscodedotnet.sh: cài đặt Visual Studio Code và DotNet SDK 2.1.4
-6. golang.sh: cài đặt Golang 1.9.2
-7. node.sh: cài đặt Node.js 9.3.0
-8. sublime.sh: cài đặt Sublime Text bản 3, không license, chạy từ terminal gõ subl
+4. vscodedotnet.sh: cài đặt Visual Studio Code và DotNet SDK 2.1.4
+5. golang.sh: cài đặt Golang 1.9.2
+6. node.sh: cài đặt Node.js 9.3.0
+7. sublime.sh: cài đặt Sublime Text bản 3, không license, chạy từ terminal gõ subl
+8. removeLibreOffice.sh: xoá Libre Office nếu thấy không cần thiết
+9. removeApps.sh: xoá những ứng dụng cài mặc định không hữu dụng khi lập trình
 
 **Nếu gặp lỗi**
 hãy email cuong@techmaster.vn

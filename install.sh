@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt update \
+apt update \
 && apt upgrade \
 && apt install -y git \
 && git clone https://github.com/TechMaster/UbuntuAutoInstallScript \
