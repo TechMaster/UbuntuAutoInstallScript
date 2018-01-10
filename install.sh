@@ -1,6 +1,6 @@
 #!/bin/sh
 apt update \
-&& apt upgrade -y \
+&& apt -y upgrade \
 && apt install -y git \
 && git clone https://github.com/TechMaster/UbuntuAutoInstallScript \
 && cd UbuntuAutoInstallScript \
