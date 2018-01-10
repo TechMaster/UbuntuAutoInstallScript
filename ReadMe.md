@@ -15,6 +15,7 @@ sudo ./script.sh
 5. vscodedotnet.sh: cài đặt Visual Studio Code và DotNet SDK 2.1.4
 6. golang.sh: cài đặt Golang 1.9.2
 7. node.sh: cài đặt Node.js 9.3.0
+8. sublime.sh: cài đặt Sublime Text bản 3, không license, chạy từ terminal gõ subl
 
 **Nếu gặp lỗi**
 hãy email cuong@techmaster.vn
