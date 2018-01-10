@@ -4,7 +4,7 @@
 ```shell
 git clone https://github.com/TechMaster/UbuntuAutoInstallScript.git
 cd UbuntuAutoInstallScript
-sudo ./script.sh
+sudo ./TheScriptYouWantToInstall.sh
 ```
 
 **Danh sách các file shell tự động cài đặt**
