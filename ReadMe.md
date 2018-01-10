@@ -16,4 +16,11 @@ sudo ./script.sh
 6. golang.sh: cài đặt Golang 1.9.2
 7. node.sh: cài đặt Node.js 9.3.0
 
-Nếu gặp lỗi hãy email cuong@techmaster.vn
+**Nếu gặp lỗi**
+hãy email cuong@techmaster.vn
+
+**Một số shortcut để gõ lệnh nhanh**
+Trong Fish Shell, chúng ta có thể định nghĩa một số shortcut để gõ lệnh nhanh ví dụ:
+- cl: clear console
+- lc: clear console and ls current folder
+Các fish function được lưu trong thư mục fishfunctions
