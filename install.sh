@@ -10,4 +10,5 @@ apt update \
 && ./vscodedotnet.sh \
 && ./node.sh \
 && ./golang.sh \
-&& ./sublime.sh
+&& ./sublime.sh \
+&& ./runFishShellAtLast.sh
