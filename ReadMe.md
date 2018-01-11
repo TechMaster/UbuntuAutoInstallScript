@@ -31,6 +31,7 @@ sudo ./removeLibreOffice.sh
 ```
 
 **Nếu gặp lỗi**
+
 hãy email cuong@techmaster.vn
 
 **Một số shortcut để gõ lệnh nhanh**

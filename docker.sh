@@ -6,6 +6,6 @@ apt update
 apt install -y docker-ce
 #Allow non-root user can use docker command
 groupadd docker
-usermod -a -G docker $USER
+usermod -a -G docker $SUDO_USER
 #Start docker daemon automatically
 systemctl enable docker
