@@ -4,4 +4,4 @@ add-apt-repository -y ppa:jonathonf/vim
 
 #Install git and vim 8.x
 apt update
-apt install -y tree htop vim
+apt install -y tree htop vim xarchiver
