@@ -2,9 +2,10 @@
 #Install Go
 apt update
 apt -y upgrade
-curl -O https://storage.googleapis.com/golang/go1.9.2.linux-amd64.tar.gz
-tar -xvf go1.9.2.linux-amd64.tar.gz
+goversion="1.10"
+curl -O https://storage.googleapis.com/golang/$goversion.linux-amd64.tar.gz
+tar -xvf $goversion.linux-amd64.tar.gz
 mv go /usr/local
-rm go1.9.2.linux-amd64.tar.gz
+rm $goversion.linux-amd64.tar.gz
 touch ~/.config/fish/config.fish
 echo 'export PATH=$PATH:/usr/local/go/bin' >>~/.profile

@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/TechMaster/UbuntuAutoInstallScript/mas
 ```
 
 **Danh sách các file shell tự động cài đặt**
-1. basic.sh : cài đặt git, vim, tree. Nên cài ngay từ đầu
+1. basic.sh : cài đặt git, vim, tree, xarchiver. Nên cài ngay từ đầu
 2. fish.sh: cài đặt Fish Shell, Oh My Fish và Roboto Mono for Powerline
 3. docker.sh: cài đặt Docker CE
 4. vscodedotnet.sh: cài đặt Visual Studio Code và DotNet SDK 2.1.4
